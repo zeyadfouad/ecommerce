@@ -308,8 +308,19 @@ body{
     content: "-";
 }
 
-.custom-carousel-indicaators2{
-    bottom: -20px !important;
+.custom-carousel-indicatros2{
+    bottom: -70px !important;
+}
+ 
+.custom-carousel-indicatros2>li{
+    width: 13px !important;
+    height: 13px !important;
+    margin: 2px !important;
+    background-color: #dbdbdb !important;
+ }
+
+.custom-carousel-indicatros2>li.active{
+    background-color: #565656 !important;
 }
 
 .panel{
@@ -338,7 +349,7 @@ body{
     font-size: 12px;
 }
 
-#row-brands h3.heading{
+.row-brands h3.heading{
     border-top: 2px solid #eef0ea;
     padding-top: 25px;
 }
